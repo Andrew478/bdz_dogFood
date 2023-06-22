@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/bdz_dogfood/static/css/main.31d6cfe0.css",
+    "main.js": "/bdz_dogfood/static/js/main.4f3aa1da.js",
+    "index.html": "/bdz_dogfood/index.html",
+    "main.4f3aa1da.js.map": "/bdz_dogfood/static/js/main.4f3aa1da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.4f3aa1da.js"
+  ]
+}
