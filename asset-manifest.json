@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bdz_dogfood/static/css/main.77f1a7e4.css",
-    "main.js": "/bdz_dogfood/static/js/main.39fe0b3e.js",
+    "main.js": "/bdz_dogfood/static/js/main.c5f92cd4.js",
     "index.html": "/bdz_dogfood/index.html",
     "main.77f1a7e4.css.map": "/bdz_dogfood/static/css/main.77f1a7e4.css.map",
-    "main.39fe0b3e.js.map": "/bdz_dogfood/static/js/main.39fe0b3e.js.map"
+    "main.c5f92cd4.js.map": "/bdz_dogfood/static/js/main.c5f92cd4.js.map"
   },
   "entrypoints": [
     "static/css/main.77f1a7e4.css",
-    "static/js/main.39fe0b3e.js"
+    "static/js/main.c5f92cd4.js"
   ]
 }
