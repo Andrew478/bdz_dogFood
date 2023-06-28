@@ -1,3 +1,23 @@
+:root {
+    /* стандартный базовый размер шрифта для всего сайта (чтобы работать с rem-единицами */
+    font-size: 8px; 
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.mainWrapper {
+    max-width: 1200px;
+    background-color: rgb(127, 197, 255);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -11,6 +31,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap; /* Чтобы меню сайта вписывалось в ширину экрана */
 }
 .menu li {
     position:relative;

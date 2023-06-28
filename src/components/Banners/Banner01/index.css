@@ -1,0 +1,46 @@
+.banner01 {
+    background-size: contain;
+    background-position: center;
+    padding: 10rem;
+    margin:1rem;
+    border-radius: 10px;
+    min-height: 100px;
+    max-height: 60vh; /* ограничение для мобильных устройств */
+
+    display: grid;
+    align-content: flex-end; /* распределить элементы по нижнему краю */
+
+    position:relative;
+    box-sizing: border-box;
+}
+/* псевдоэлемент для осветления фона */
+.banner01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: inherit;
+}
+
+.banner01__header {
+    font-size: 5rem;
+    z-index: 1;
+}
+.banner01__text {
+    font-size: 2.5rem;
+    z-index: 1;
+}
+
+/* адаптация для ПК (изначально всё под мобилку) */
+@media screen and (min-width: 1064px) {
+    .banner01__header {
+        font-size: 6rem;
+    }
+    .banner01__text {
+        
+    }
+}

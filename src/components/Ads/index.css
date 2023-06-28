@@ -1,0 +1,51 @@
+.ads {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.ads__text {
+    flex: 1;
+    display: grid;
+    gap: 1rem;
+}
+
+.ads__img {
+    flex: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    opacity: 0.3;
+}
+
+@media screen and (min-width: 1064px) {
+    .ads {
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        padding: 2rem;
+        display: flex;
+        gap: 2rem;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ads__img {
+        flex: 1;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+}

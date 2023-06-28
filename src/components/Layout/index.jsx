@@ -1,11 +1,11 @@
 import React from "react";
 import "./index.css";
-import Card from "../Card";
 
 const Layout = ({
     mb = 1,
     dt = mb, /* mb - пропс-параметр для мобильной версии, dt - для десктопной */
-    gap = "normal"
+    gap = "normal", // none - 0, small - 2rem, normal - 4rem
+    children
 }) => {
     let className = "layout";
     switch(mb) {
@@ -27,15 +27,7 @@ const Layout = ({
         default: break;
     }
     return <div className={className}>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-
-        <Card/>
-        <Card/>
-        <Card/>
+        {children}
     </div>
 }
 

@@ -3,3 +3,49 @@ https://create-react-app.dev
 
 Запустить проект на GitHub pages:
 https://create-react-app.dev/docs/deployment
+
+Картинки (фотки):
+https://unsplash.com/
+
+Картинки (паттерны):
+https://www.freepik.com/
+
+Иконки:
+https://www.flaticon.com/
+
+
+Лицензионные ссылки:
+
+Бегущая собака:
+Photo by <a href="https://unsplash.com/@joeyc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Caione</a> on <a href="https://unsplash.com/photos/qO-PIF84Vxg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Паттерн лапы собаки:
+<a href="https://www.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_2709577.htm#query=pattern%20dog&position=1&from_view=search&track=ais">Image by starline</a> on Freepik
+
+Баннер с собаками по краям:
+<a href="https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#page=2&query=pattern%20dog&position=0&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+
+Иконки:
+
+Черно-белые:
+<a href="https://www.flaticon.com/free-icons/dog-food" title="dog food icons">Dog food icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/pet-care" title="pet care icons">Pet care icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by Zlatko Najdenovski - Flaticon</a>
+
+Цветные flat:
+
+<a href="https://www.flaticon.com/free-icons/siberian-husky" title="siberian husky icons">Siberian husky icons created by smalllikeart - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/shiba" title="shiba icons">Shiba icons created by smalllikeart - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/labrador" title="labrador icons">Labrador icons created by smalllikeart - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by smalllikeart - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by smalllikeart - Flaticon</a>
