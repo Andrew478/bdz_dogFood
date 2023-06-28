@@ -18,8 +18,8 @@ function App() {
       <li><Link to="/">Главная</Link></li>
       <li><Link to="/catalog">Каталог</Link>
         <ul>
-          <li><Link to="/categoty/Snacks">Лакомства</Link></li>
-          <li><Link to="/categoty/Toys">Игрушки</Link></li>
+          <li><Link to="/catalog/Snacks">Лакомства</Link></li>
+          <li><Link to="/catalog/Toys">Игрушки</Link></li>
         </ul>
       </li>
       <li><Link to="/favorites">Избранное</Link></li>
