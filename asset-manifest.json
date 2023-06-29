@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bdz_dogfood/static/css/main.b951f5f8.css",
-    "main.js": "/bdz_dogfood/static/js/main.deadf796.js",
+    "main.css": "/bdz_dogfood/static/css/main.a363d31c.css",
+    "main.js": "/bdz_dogfood/static/js/main.17906c17.js",
     "static/media/banner01.jpg": "/bdz_dogfood/static/media/banner01.1a8e5747a16a7811b560.jpg",
     "static/media/dog01.jpg": "/bdz_dogfood/static/media/dog01.fc6b19c147e038ba6b92.jpg",
     "static/media/pattern01.jpg": "/bdz_dogfood/static/media/pattern01.f463b030243d60b02113.jpg",
@@ -11,11 +11,11 @@
     "static/media/icon_color_dog01.png": "/bdz_dogfood/static/media/icon_color_dog01.999886069233a4973dd8.png",
     "static/media/icon_color_dog02.png": "/bdz_dogfood/static/media/icon_color_dog02.fdc259797a0fc13531b1.png",
     "index.html": "/bdz_dogfood/index.html",
-    "main.b951f5f8.css.map": "/bdz_dogfood/static/css/main.b951f5f8.css.map",
-    "main.deadf796.js.map": "/bdz_dogfood/static/js/main.deadf796.js.map"
+    "main.a363d31c.css.map": "/bdz_dogfood/static/css/main.a363d31c.css.map",
+    "main.17906c17.js.map": "/bdz_dogfood/static/js/main.17906c17.js.map"
   },
   "entrypoints": [
-    "static/css/main.b951f5f8.css",
-    "static/js/main.deadf796.js"
+    "static/css/main.a363d31c.css",
+    "static/js/main.17906c17.js"
   ]
 }
