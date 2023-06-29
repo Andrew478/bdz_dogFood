@@ -1,0 +1,37 @@
+.header {
+    box-sizing: border-box;
+    background-color: #2289dd;
+    color: white;
+    padding: 6rem;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Чтобы меню сайта вписывалось в ширину экрана */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    max-width: 1200px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.header li {
+    
+    position:relative;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease-out;
+}
+.header li:hover ul{
+    visibility: visible;
+}
+.header ul {
+    position: absolute;
+    list-style-type: none;
+    z-index: 1;
+    background-color: #00337C;
+    padding: 10px;
+    box-shadow: 0 1px 5px 0 #0004;
+    visibility: hidden;
+}
+.header li:hover {
+    background-color: #00337C;
+}
