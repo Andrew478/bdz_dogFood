@@ -1,6 +1,9 @@
 import SiteImages from "../assets/images"
 import { useState, useEffect } from "react";
 
+import { CartItemsList } from "../components/CartItemsList";
+
+
 let cartProductSample = {
     img: 'https://4lapy.ru/resize/480x480/upload/iblock/f8c/f8caa0042eed1704f03260bfd21a9488.jpg',
     name: 'Товар №1',
@@ -12,8 +15,14 @@ let cartProductSample = {
 export function Cart ({
     cart = [cartProductSample]
 }) {
-    
+    cart.push(cartProductSample);
+    cart.push(cartProductSample);
+    cart.push(cartProductSample);
 
+    cart = [...cart];
+    console.log(`cart: ${cart}`);
+    console.log(cart);
+    console.log(typeof cart);
     
 
 
@@ -32,7 +41,7 @@ export function Cart ({
     else page = <div className="filled-cart">
         <h2>Количество товаров в корзине: 1</h2>
         <div className="cart-product-section__2columns">
-            <div className="c__section1">
+            {/* <div className="c__section1">
                 <ul>
                     <li className="characteristics2">
                         <div style={{display: 'flex', gap:'10px'}}>
@@ -50,7 +59,8 @@ export function Cart ({
                     </li>
                 </ul>
                 
-            </div>
+            </div> */}
+            <CartItemsList props={cart}/>
             <div className="c__section2">
                 <div className="cart-section-summary">
                     <ul>
