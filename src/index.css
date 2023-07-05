@@ -1,6 +1,10 @@
 :root {
     /* стандартный базовый размер шрифта для всего сайта (чтобы работать с rem-единицами */
-    font-size: 8px; 
+    font-size: 8px;
+    --site-color: #2289dd; /* шапка и подвал, белый шрифт, более контрастный цвет */
+    --site-color2: #00337C; /* выделение кнопок для --site-color */
+    --site-color3:  rgb(127, 197, 255); /* фон сайта, черный шрифт, менее контрастный */
+    --site-color4:  rgb(158, 212, 255); /* выделение кнопок для --site-color3:*/
 }
 
 body {
@@ -15,8 +19,11 @@ body {
 }
 .mainWrapper {
     max-width: 1200px;
-    background-color: rgb(127, 197, 255);
+    min-height: 600px;
+    background-color: white;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 20px 50px 20px 50px;
 }
 a {
     text-decoration: none;
@@ -25,4 +32,155 @@ a {
 ul {
     padding: 0;
     list-style-type: none;
+}
+
+/* Страница 1 товара */
+
+.small-grey-text {
+    font-size: 1.8rem;
+    color: rgb(184, 184, 184);
+}
+.button-back {
+    background-color: transparent;
+    border:none;
+}
+.button-back:hover {
+    color: rgb(126, 126, 126);
+}
+.link-feedback {
+    color:rgb(127, 197, 255);
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+.cart-section__2columns { /* Стиль выравнивания 2 колонок между собой */
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+}
+.cart-section__2 { /* Стиль выравнивания элементов 2й колонки */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-page__pic {
+    max-width: 50%;
+    
+}
+.price-value {
+    font-size: 4rem;
+    margin: 0;
+}
+.product__2buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.button-cart__count {
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-cart__add {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cart__button-add__background {
+    background-color: rgb(127, 197, 255);
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.button-cart__link-to-cart {
+    cursor: pointer;
+    background-color: rgb(127, 197, 255);
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 2rem;
+    transition: background-color 0.5s ease-out;
+}
+.button-cart__link-to-cart:hover {
+    background-color: rgb(158, 212, 255);
+}
+.button-add-to-favorites {
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: rgb(184, 184, 184);
+    background-color: transparent;
+    border:none;
+    font-size: 2rem;
+    padding: 5px 5px 5px 0;
+}
+.product-page__info01 {
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+
+}
+.product-page__info01__icon {
+    width: 40px;
+    height: 40px;
+    padding: 20px 20px 20px 0;
+}
+.characteristics {
+    display: flex;
+    justify-content: space-between;
+}
+.characteristics2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+
+/* Корзина товаров */
+
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+.filled-cart {
+
+}
+.c__section1 {
+    display: flex;
+    
+}
+.c__section2 {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.cart-section-summary { /* Отображает блок где общая цена товаров в корзине */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+.price-value2 { /* Для цены внутри списка в корзине (блок слева) */
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.cart-page__pic {
+    max-width: 100px;
+    max-height: 100px;
+}
+.cart-product-section__2columns { /* Стиль выравнивания 2 колонок между собой в списке корзины */
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+    gap:20px;
+    align-items: start;
 }

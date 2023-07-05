@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer__navBlock">
             <h2>DogFood</h2>
             <p>Сделано Андреем Жмако</p>
-            <p>Мой GitHub</p>
+            <p>Мой <a href='https://github.com/Andrew478' target="_blank">Github</a></p>
             <p>©2023 All rights reserved</p>
         </div>
         <div className="footer__navBlock">
