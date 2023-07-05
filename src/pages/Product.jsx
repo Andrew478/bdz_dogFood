@@ -1,19 +1,23 @@
 import SiteImages from "../assets/images"
 import {Routes, Route, Link} from "react-router-dom";
 
-export function Product () {
+export function Product ({
+    prod
+}) {
+    
+    
     return (
         <div className="mainWrapper">
             {/* <h1>Страница товара</h1> */}
             <div><button className="small-grey-text button-back">Назад</button></div>
-            <h2>Natural Ingredients Сухой корм для щенков крупных пород, с курицей</h2>
-            <div><span className="small-grey-text">Артикул:</span> 2388907 звезды <a href='#' className="link-feedback">Отзывы</a></div>
+            <h2>{prod.name}</h2>
+            <div><span className="small-grey-text">Артикул:</span> 2388907  Рейтинг: {prod.rate} из 5  <a href='#' className="link-feedback">Отзывы</a></div>
             <div className="cart-section__2columns">
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img src="https://4lapy.ru/resize/480x480/upload/iblock/f8c/f8caa0042eed1704f03260bfd21a9488.jpg" className="product-page__pic"></img>
+                    <img src={prod.img} className="product-page__pic"></img>
                 </div>
                 <div className="cart-section__2">
-                    <p className="price-value">3249.35 ₽</p>
+                    <p className="price-value">{prod.price} ₽</p>
                     <div className="product__2buttons">
                         <div className="cart__button-add__background">
                             <button className="button-cart__add">-</button>
@@ -45,27 +49,20 @@ export function Product () {
                 <p style={{maxWidth: '80%'}}>ABBA Natural Ingredients Puppy Large – это полнорационный корм со свежим мясом курицы и с высоким содержанием натуральных ингредиентов, разработанный специально для щенков крупных пород. Корм сбалансирован по составу и количеству витаминов и питательных веществ для быстро растущего организма. Высокое количество протеина способствует быстрому насыщению и правильному развитию мышечного корсета.</p>
                 </div>
             <div>
+                <br></br>
                 <h2>Таблица характеристик</h2>
                 <ul style={{maxWidth: '50%'}}>
-                    <li className="characteristics">
-                        <p>Свойство:</p>
-                        <p>Значение описание характеристика</p>
+                    <li className="characteristics" >
+                        <p>Вес:</p>
+                        <p style={{maxWidth:'60%', textAlign:'right'}}>{prod.characteristics.weight}</p>
                     </li>
                     <li className="characteristics">
-                        <p>Свойство:</p>
-                        <p>Значение описание характеристика</p>
+                        <p>Цена:</p>
+                        <p style={{maxWidth:'60%', textAlign:'right'}}>{prod.characteristics.price}</p>
                     </li>
-                    <li className="characteristics">
-                        <p>Свойство:</p>
-                        <p>Значение описание характеристика</p>
-                    </li>
-                    <li className="characteristics">
-                        <p>Свойство:</p>
-                        <p>Значение описание характеристика</p>
-                    </li>
-                    <li className="characteristics">
-                        <p>Свойство:</p>
-                        <p>Значение описание характеристика</p>
+                    <li className="characteristics" >
+                        <p>Польза:</p>
+                        <p style={{maxWidth:'60%', textAlign:'right'}}>{prod.characteristics.polza}</p>
                     </li>
                 </ul>
             </div>

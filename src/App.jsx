@@ -15,6 +15,8 @@ import Layout from "./components/Layout";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
+import products from "./assets/data/products.json";
+
 
 function App() {
   return <>
@@ -24,8 +26,8 @@ function App() {
       <Route path="/" element={<Home/>}/>  {/* простой слеш это главная страница */}
       <Route path="/catalog" element={<Catalog/>}/>  {/* каталог товаров */}
       <Route path="/catalog/:name" element={<Catalog isCategory={true}/>}/>  {/* каталог товаров по категориям */}
-      <Route path="/product/:id" element={<Product/>}/>  {/* страница одного товара  */}
-      <Route path="/cart" element={<Cart/>}/>  {/* корзина */}
+      <Route path="/product/:id" element={<Product prod={products[1]}/>}/>  {/* страница одного товара  */}
+      <Route path="/cart" element={<Cart cart={products}/>}/>  {/* корзина */}
 
       <Route path="/favorites" element={<Favorites/>}/>  {/* избранное */}
       <Route path="/profile" element={<Profile/>}/>  {/* профиль пользователя */}

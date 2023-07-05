@@ -11,7 +11,7 @@ export const CartItem = ({
         <ul>
             <li className="characteristics2">
                 <div style={{ display: 'flex', gap: '10px' }}>
-                    <img src={SiteImages[img]} className="cart-page__pic"></img>
+                    <img src={img} className="cart-page__pic"></img>
                     <p style={{ fontWeight: 700 }}>{name}</p>
                 </div>
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
